@@ -1,35 +1,43 @@
 # Laporan Proyek Data Science & Machine Learning - Nama
 ## Domain Proyek
 
-Domain dari proyek _machine learning_ ini adalah tentang laptop dengan judul "_laptop price prediction based on hardware_"
+Domain dari proyek _machine learning_ ini adalah tentang prediksi cuaca dengan judul "_Weather prediction based on average temperature_"
 
 ### Latar Belakang
   
-Sejak masa Covid-19, laptop berkembang menjadi semakin canggih dan semakin banyak variasi baik itu layar, CPU, GPU, metode penyimpanan, dll. Harga laptop saat ini sudah semakin mahal. Semakin lengkap komponennya, semakin tinggi harga laptopnya. Oleh karena itu, harus berhati-hati dalam memilih komponen laptop yang dibutuhkan saat bekerja nanti
+Setiap hari, suhu berubah 
 
 Dari masalah di atas, proyek ini akan membuat suatu model machine learning untuk memprediksi harga laptop di masa depan berdasarkan komponen-komponen laptop yang diisi pengguna. Model ini akan membantu pengguna agar semakin mudah untuk memilih laptop yang cocok untuk lingkungan kerjanya. Model ini akan berjalan di aplikasi berbasis web
 
 ## Business Understanding
 
+### Problem Statements
 Berdasarkan pada latar belakang di atas, permasalahan yang dapat diselesaikan pada proyek ini adalah sebagai berikut:
 
- - Bagaimana cara mengolah data dari berbagai laptop agar dapat membuat model yang baik?
- - Bagaimana cara mengupdate model untuk mempersiapkan berbagai komponen baru yang akan datang di masa depan?
-
-### Problem Statements
-Berisi poin-poin masalah proyek DS/ML yang dikerjakan beserta penjelasannya paling sedikit setidaknya 2
+ - Bagaimana cara mengolah data dari data suhu per hari agar dapat membuat model yang baik?
+ - Bagaimana cara mengupdate model untuk agar dapat ditambahkan parameter untuk memprediksi suhu yang akan datang
 
 ### Goals
-Tujuan dari proyek DS/ML yang dikerjakan beserta penjelasannya paling sedikit setidaknya 2
+Tujuan dibuatnya proyek ini adalah sebagai berikut:
+
+ - Melakukan pra-pemrosesan data suhu per hari agar dapat digunakan dalam membangun model.
+ - Membangun model machine learning untuk memprediksi suhu di masa mendatang dengan tingkat akurasi > 80%.
 
 ### Solution statements
 Solusi yang didapatkan setelah mengerjakan proyek DS/ML yang dikerjakan
 
 - **Pra-pemrosesan Data**. Pada pra-pemrosesan data dapat dilakukan beberapa tahapan, antara lain:
-  - Pembahasan tahapan serta rincian tahap pra pemrosesan data
+  - Melakukan perhitungan rerata berdasarkan data temp_max dan temp_min.
+  - Melakukan pembagian dataset.
+  - Mengatasi data pencilan (outliers) dengan Metode IQR.
+  - Standardisasi data fitur numerik pada dataset.
+
   
 - **Pembangunan Model**. Pada pembangunan model terdapat beberapa algoritma yang digunakan, antara lain:
-  - Algoritma yang digunakan, minimal 2 algoritma.
+  - K-Nearest Neighbor
+  - Random Forest
+  - Boosting Algorithm
+
     
 ## Data Understanding
 - **Informasi Dataset**
