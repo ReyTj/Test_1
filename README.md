@@ -45,14 +45,14 @@ Solusi yang didapatkan setelah mengerjakan proyek DS/ML yang dikerjakan
 
   | Jenis                   | Keterangan                                                                              |
   | ----------------------- | --------------------------------------------------------------------------------------- |
-  | Sumber                  | [Asal Dataset] |
-  | Dataset Owner           | [Pengupload Dataset/Pemilik Dataset |
-  | Lisensi                 | [Lisensi yang dimiliki dataset] |
-  | Kategori                | [Kategori Dataset] |
-  | Usability               | [Tingkat kualitas data] |
-  | Jenis dan Ukuran Berkas | [Format data] |
+  | Sumber                  | [Kaggle] |
+  | Dataset Owner           | [ANANTH R |
+  | Lisensi                 | [CC BY-NC-SA 4.0 DEED] |
+  | Kategori                | [Weather and Climate] |
+  | Usability               | [10.00] |
+  | Jenis dan Ukuran Berkas | [csv 49.68 kB] |
 
-  Setelah melakukan observasi pada dataset yang diunduh melalui _link_ Kaggle yaitu `coin_Bitcoin.csv`, didapatkan informasi sebagai berikut :
+  Setelah melakukan observasi pada dataset yang diunduh melalui _link_ Kaggle yaitu `seattle-weather.csv`, didapatkan informasi sebagai berikut :
   
   Detail penjelasan dari isi dataset
 
