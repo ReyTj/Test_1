@@ -45,19 +45,32 @@ Solusi yang didapatkan setelah mengerjakan proyek DS/ML yang dikerjakan
 
   | Jenis                   | Keterangan                                                                              |
   | ----------------------- | --------------------------------------------------------------------------------------- |
-  | Sumber                  | [Kaggle] |
-  | Dataset Owner           | [ANANTH R |
-  | Lisensi                 | [CC BY-NC-SA 4.0 DEED] |
-  | Kategori                | [Weather and Climate] |
-  | Usability               | [10.00] |
-  | Jenis dan Ukuran Berkas | [csv 49.68 kB] |
+  | Sumber                  | Kaggle |
+  | Dataset Owner           | ANANTH R |
+  | Lisensi                 | CC BY-NC-SA 4.0 DEED |
+  | Kategori                | Weather and Climate |
+  | Usability               | 10.00 |
+  | Jenis dan Ukuran Berkas | csv 49.68 kB |
 
   Setelah melakukan observasi pada dataset yang diunduh melalui _link_ Kaggle yaitu `seattle-weather.csv`, didapatkan informasi sebagai berikut :
-  
-  Detail penjelasan dari isi dataset
+
+  - Terdapat 1461 baris (records atau jumlah pengamatan) yang berisi informasi mengenai data cuaca.
+  - Terdapat 6 kolom yaitu date, precipitation, temp_max, temp_min, wind, weather yang merupakan variabel - variabel pada data
+  - Dari kolom-kolom tersebut terdapat 4 kolom numerik dengan tipe data float64, yaitu precipitation, temp_max, temp_min, wind 
+  - Terdapat 1 kolom dengan tipe object yaitu weather
+  - Tidak terdapat missing value pada dataset.
+
+  Untuk penjelasan mengenai variabel-variabel pada dataset dapat dilihat pada poin-poin berikut ini:
+
+  - date : Tanggal pencatatan data
+  - precipitation : proses jatuhnya segala materi yang dicurahkan dari atmosfer ke permukaan bumi dalam bentuk cair (hujan) maupun padat (salju).
+  - temp_max : suhu maksimal
+  - temp_min : suhu minimal
+  - wind : kecepatan angin
+  - weather : cuaca
 
 - **Sebaran atau Distribusi Data pada Setiap Fitur**
-  <br> Penjelasan dan ilustrasi mengenai persebaran data beserta analisis menggunakan Univariate & Multivariate Analysis, serta penjelasan dari ilustrasi persebaran data tersebut.
+  sebelum masuk ke tahap distribusi data, persiapan yang dilakukan yaitu perlu membuat dua variabel baru yaitu variabel temp_Average untuk menampung rata-rata suhu dan Temp_Next_Day untuk suhu setelah sehari. Berikut merupakan visualisasi data yang menunjukkan sebaran/distribusi data pada setiap fitur-fitur numerik `(temp_max, temp_min, temp_Average, temp_Next_Day)`
   
   
 ## Data Preparation
