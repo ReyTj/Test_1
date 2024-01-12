@@ -69,6 +69,7 @@ Solusi yang didapatkan setelah mengerjakan proyek DS/ML yang dikerjakan
   - wind : kecepatan angin
   - weather : cuaca
 
+  [boxplot](url_of_image)
 - **Sebaran atau Distribusi Data pada Setiap Fitur**
   sebelum masuk ke tahap distribusi data, persiapan yang dilakukan yaitu perlu membuat dua variabel baru yaitu variabel temp_Average untuk menampung rata-rata suhu dan Temp_Next_Day untuk suhu setelah sehari. Berikut merupakan visualisasi data yang menunjukkan sebaran/distribusi data pada setiap fitur-fitur numerik `(temp_max, temp_min, temp_Average, temp_Next_Day)`
   
