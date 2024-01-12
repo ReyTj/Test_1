@@ -5,9 +5,9 @@ Domain dari proyek _machine learning_ ini adalah tentang prediksi cuaca dengan j
 
 ### Latar Belakang
   
-Setiap hari, suhu berubah 
+Sejak revolusi industri, emisi yang dikeluarkan dari pabrik-pabrik besar mulai merusak lingkungan sekitar tetapi, dampak yang signifikan mulai tampak sejak awal tahun 2000an. Dampak yang signifikan ini disebut juga sebagai pemanasan global. Hal ini disebabkan oleh polusi CO2, penebangan pohon, gas rumah kaca, dan lainnya. Pemanasan global menyebabkan suhu di bumi semakin tidak terprediksi.
 
-Dari masalah di atas, proyek ini akan membuat suatu model machine learning untuk memprediksi harga laptop di masa depan berdasarkan komponen-komponen laptop yang diisi pengguna. Model ini akan membantu pengguna agar semakin mudah untuk memilih laptop yang cocok untuk lingkungan kerjanya. Model ini akan berjalan di aplikasi berbasis web
+Dari masalah di atas, proyek ini akan membuat suatu model machine learning untuk memprediksi suhu setiap harinya di masa depan berdasarkan data yang didapat sejak awal tahun 2000-an. Model ini akan membantu pengguna agar semakin siap untuk menghadapi setiap harinya dengan memberikan perkiraan suhu setiap harinya agar pengguna dapat mempersiapkan pakaian yang tepat.  Model ini akan berjalan di aplikasi berbasis web
 
 ## Business Understanding
 
